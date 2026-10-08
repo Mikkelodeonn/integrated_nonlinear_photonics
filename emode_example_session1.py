@@ -184,17 +184,18 @@ def simulate_dual_waveguide(em,
  
     return result
 
-em = emode.EMode() 
-result = simulate_waveguide(em, 
-                            wavelength=1550,     # nm                            
-                            core_height=136,     # nm                           
-                            core_width=1200,     # nm                            
-                            clad_width=1200,     # nm of SiO2 on each side                            
-                            clad_height=1200,    # nm of SiO2 above and below                            
-                            dx=10, dy=2,         # nm grid spacing (larger = faster)                            
-                            nr_modes=1,                            
-                            BC='TE',                            
-                            plot_bool=True,      # opens EMode's plot window                            
-                            return_fields=False)
+#em = emode.EMode() 
+#result = simulate_waveguide(em, 
+#                            wavelength=1550,     # nm                            
+#                            core_height=136,     # nm                           
+#                            core_width=1200,     # nm                            
+#                            clad_width=1200,     # nm of SiO2 on each side                            
+#                            clad_height=1200,    # nm of SiO2 above and below                            
+#                            dx=10, dy=2,         # nm grid spacing (larger = faster)                            
+#                            nr_modes=1,                            
+#                            BC='TE',                            
+#                            plot_bool=True,      # opens EMode's plot window                            
+#                            return_fields=False)
 
-print('n_eff:', result['n_eff'])
+#print('n_eff:', result['n_eff'])
+
